@@ -24,3 +24,10 @@ header .cta {
   padding: 50px 40px;
 }
 
+header .cta .course-name {
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
