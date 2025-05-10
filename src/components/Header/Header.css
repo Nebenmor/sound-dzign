@@ -41,4 +41,12 @@ header .cta .course-name::after {
   bottom: -10px;
 }
 
+header .cta h1 {
+    font-family: 'Alegreya';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+
+    color: #fff;
+}
 
