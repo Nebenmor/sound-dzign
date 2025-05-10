@@ -31,3 +31,14 @@ header .cta .course-name {
   position: relative;
 }
 
+header .cta .course-name::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: var(--red-color);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+
