@@ -10,3 +10,17 @@ header .wrapper {
   height: 100vh;
 }
 
+header .cta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  border-width: 4px 4px 0px 4px;
+  border-style: solid;
+  border-color: #fff;
+  backdrop-filter: blur(25px);
+  border-radius: 20px 20px 0px 0px;
+  padding: 50px 40px;
+}
+
