@@ -50,3 +50,12 @@ header .cta h1 {
     color: #fff;
 }
 
+header .cta .demo-btn {
+    border-radius: 10px;
+    background: var(--red-color);
+    color: #fff;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
