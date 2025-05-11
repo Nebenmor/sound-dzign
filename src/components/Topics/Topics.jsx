@@ -17,7 +17,14 @@ const Topics = () => {
     <section id="topics" className="black">
       <div className="wrapper">
         <h2>What will you learn?</h2>
-       
+        <div className="content-container">
+          <ul>
+            <li onMouseEnter={ () => setCurrentImage(frequencies) } >What are frequencies?</li>
+            
+          </ul>
+
+          
+        </div>
         <img src={bgElement1} alt="bgElement1" className="bg-element-1" />
       </div>
     </section>
