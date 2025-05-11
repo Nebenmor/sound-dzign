@@ -15,7 +15,11 @@ const Topics = () => {
 
   return (
     <section id="topics" className="black">
-      
+      <div className="wrapper">
+        <h2>What will you learn?</h2>
+       
+        <img src={bgElement1} alt="bgElement1" className="bg-element-1" />
+      </div>
     </section>
   );
 };
