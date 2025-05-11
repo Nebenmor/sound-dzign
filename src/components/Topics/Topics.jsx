@@ -22,7 +22,8 @@ const Topics = () => {
             <li onMouseEnter={ () => setCurrentImage(frequencies) } >What are frequencies?</li>
             <li onMouseEnter={ () => setCurrentImage(daw) } >Using the DAW</li>
             <li onMouseEnter={ () => setCurrentImage(vocalsProcessing) } >Vocals Processing</li>
-            <li 
+            <li onMouseEnter={ () => setCurrentImage(mixing) } >Mixing</li>
+ 
           </ul>
 
           
