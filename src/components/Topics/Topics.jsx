@@ -1,10 +1,23 @@
-import React from 'react'
-import "./Topics.css"
+import React, { useState } from "react";
+import "./Topics.css";
+import {
+  frequencies,
+  daw,
+  vocalsProcessing,
+  mixingConsole,
+  mixing,
+  mastering,
+  bgElement1,
+} from "../../assets/index";
 
 const Topics = () => {
-  return (
-    <div>Topics</div>
-  )
-}
+  const [currentImage, setCurrentImage] = useState(frequencies);
 
-export default Topics
+  return (
+    <section id="topics" className="black">
+      
+    </section>
+  );
+};
+
+export default Topics;

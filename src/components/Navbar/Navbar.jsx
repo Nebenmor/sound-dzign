@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <a href="#" className="logo">
-        Sound<span className="red">DZing</span>
+        Sound<span className="red">DZign</span>
       </a>
 
       <ul>
