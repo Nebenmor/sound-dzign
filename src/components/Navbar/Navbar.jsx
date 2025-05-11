@@ -9,15 +9,12 @@ const Navbar = () => {
       </a>
 
       <ul>
-        <li>
-          <a href="#">Coure Details</a>
-          <a href="#">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Testimonials</a>
-        </li>
+        <li><a href="#">Course Details</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Testimonials</a></li>
       </ul>
     </nav>
   );
 };
-
 export default Navbar;
