@@ -27,7 +27,9 @@ const Topics = () => {
             <li onMouseEnter={ () => setCurrentImage(mastering) } >Mastering</li>
           </ul>
 
-          
+          <div className="topic-image">
+            <img src={currentImage} alt="" />
+          </div>
         </div>
         <img src={bgElement1} alt="bgElement1" className="bg-element-1" />
       </div>
