@@ -30,3 +30,9 @@
   transform: translateY(-50%);
 }
 
+#topics .content-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
