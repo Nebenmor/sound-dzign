@@ -3,7 +3,7 @@
     --dark-color: #181e1e;
     --red-color: #e63946;
     --pink-color: #ff6864;
-    --yellow: #ffca28;
+    --yellow-color: #ffca28;
 }
   
 *,
@@ -29,12 +29,18 @@ a{
 /* section */
 section {
     padding: 80px 0;
+    color: #fff;
 }
 
 section h2 {
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
+    position: relative;
+}
+
+section h2.light::after {
+    background: var(--yellow-color);
 }
 
 .black {
@@ -49,3 +55,16 @@ section h2 {
     background: var(--pink-color);    
 }
 
+section h2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: var(--red-color);
+    left: 0;
+    bottom: -10px;
+}
+
+section .content-container {
+    display: flex;
+}
