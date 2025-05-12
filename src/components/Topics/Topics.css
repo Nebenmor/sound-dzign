@@ -18,3 +18,14 @@
   position: relative;
 }
 
+#topics .topics-list li::before {
+  content: "";
+  position: absolute;
+  background-color: var(--red-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: -24%;
+  top: 50%;
+  transform: translateY(-50%);
+}
