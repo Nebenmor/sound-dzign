@@ -40,3 +40,8 @@
   position: relative;
 }
 
+#topics .bg-element-1 {
+  position: absolute;
+  right: -24px;
+  bottom: 0;
+}
