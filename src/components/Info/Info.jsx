@@ -14,7 +14,7 @@ const Info = () => {
           </div>
 
           <div className="info-content">
-            <img src={studentIcon} alt="student-icon" />
+            <img src={videoIcon} alt="student-icon" />
             <div className='amount' >26 Hrs</div>
             <div className='type' >Video Content</div>
           </div>
