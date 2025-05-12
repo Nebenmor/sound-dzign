@@ -21,3 +21,7 @@
     position: relative;
 }
 
+#info .bg-element-2 {
+    position: absolute;
+    left: 0;
+}
