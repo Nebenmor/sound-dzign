@@ -1,0 +1,5 @@
+#topics .topic-image img {
+  width: 550px;
+  object-fit: cover;
+}
+
