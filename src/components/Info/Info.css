@@ -6,3 +6,8 @@
     gap: 4px;
 }
 
+#info .info-content .amount {
+     font-weight: 800;
+     font-size: 40px;
+}
+
