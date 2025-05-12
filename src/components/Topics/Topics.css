@@ -36,3 +36,7 @@
   padding: 12px;
 }
 
+#topics .wrapper {
+  position: relative;
+}
+
