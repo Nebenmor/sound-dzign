@@ -10,3 +10,11 @@
   margin-left: 24px;
 }
 
+#topics .topics-list li {
+  font-family: "Alegraya";
+  font-weight: 400;
+  font-size: 20px;
+  margin: 24px 0;
+  position: relative;
+}
+
