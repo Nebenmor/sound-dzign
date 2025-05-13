@@ -26,3 +26,11 @@ footer .copyright {
   color: #fff;
 }
 
+footer h3 {
+  color: var(--pink-color);
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+
