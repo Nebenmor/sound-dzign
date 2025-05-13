@@ -34,7 +34,17 @@ const Testimonials = () => {
             </div>
           </div>
 
-          
+          {/* Testimonial 3 */}
+          <div className="testimonial">
+            <img src={testimonial3} alt="testimonial-3" />
+            <div className="reviewer-details">
+              <div className="name">Emily Smith</div>
+              <div className="company-name">Apple</div>
+              <div className="review">
+                Awesome! Great job!!
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
