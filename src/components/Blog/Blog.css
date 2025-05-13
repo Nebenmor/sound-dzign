@@ -18,3 +18,7 @@
   transition: all 400ms;
 }
 
+#blog .post:hover {
+    transform: scale(1.04);
+}
+
