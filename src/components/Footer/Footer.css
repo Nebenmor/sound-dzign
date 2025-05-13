@@ -34,3 +34,9 @@ footer h3 {
   margin: 0;
 }
 
+footer .links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
