@@ -21,8 +21,20 @@ const Testimonials = () => {
             </div>
           </div>
 
+          {/* Testimonial 2 */}
+          <div className="testimonial">
+            <img src={testimonial2} alt="testimonial-2" />
+            <div className="reviewer-details">
+              <div className="name">Robert Fox</div>
+              <div className="company-name">Instagram</div>
+              <div className="review">
+                I got to learn a lot about Music Production with thi course.
+                Thanks :)
+              </div>
             </div>
           </div>
+
+          
         </div>
       </div>
     </section>
