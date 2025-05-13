@@ -46,3 +46,8 @@
     margin: 0;
 }
 
+#blog .btn-container {
+    display: flex;
+    justify-content: right;
+}
+
