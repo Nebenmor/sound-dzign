@@ -10,7 +10,19 @@ const Testimonials = () => {
 
         <div className="content-container">
           {/* Testimonial 1 */}
-          
+          <div className="testimonial">
+            <img src={testimonial1} alt="testimonial-1" />
+            <div className="reviewer-details">
+              <div className="name">Peter Adams</div>
+              <div className="company-name">Google</div>
+              <div className="review">
+                This is a great course. I got to learn a lot
+              </div>
+            </div>
+          </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
