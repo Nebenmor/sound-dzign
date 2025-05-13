@@ -10,3 +10,11 @@
   object-fit: cover;
 }
 
+#blog .post {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: all 400ms;
+}
+
