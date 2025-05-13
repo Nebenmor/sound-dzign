@@ -24,7 +24,7 @@ const Blog = () => {
         <div className="post">
           <div className="tag">Mixing</div>
           <a href="#">
-            <img src={blog2} alt="blog-1" />
+            <img src={blog2} alt="blog-2" />
           </a>
 
           <a href="">
@@ -35,7 +35,7 @@ const Blog = () => {
         <div className="post">
           <div className="tag">Vox</div>
           <a href="#">
-            <img src={blog3} alt="blog-1" />
+            <img src={blog3} alt="blog-3" />
           </a>
 
           <a href="#">
