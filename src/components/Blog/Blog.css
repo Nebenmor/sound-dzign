@@ -22,3 +22,17 @@
     transform: scale(1.04);
 }
 
+#blog .post .tag {
+  position: absolute;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+  background: #fff;
+  padding: 0 16px;
+  right: 8px;
+  top: 8px;
+  border-radius: 10px;
+}
+
