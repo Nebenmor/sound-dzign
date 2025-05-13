@@ -68,3 +68,27 @@ section h2::after {
 section .content-container {
     display: flex;
 }
+
+/* Responsive Design */
+/* Tablet Version */
+@media (max-width: 1040px) {
+    .wrapper {
+        max-width: 694px;
+    }
+}
+
+/* Smartphone Version */
+@media (max-width: 1040px) {
+    .wrapper {
+        padding: 0 32px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section h2::after {
+        width: 50px;
+        bottom: 0;
+    }
+}
