@@ -51,3 +51,13 @@
     justify-content: right;
 }
 
+#blog .all-posts-btn {
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    padding: 4px 32px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #000;
+}
