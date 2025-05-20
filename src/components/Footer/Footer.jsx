@@ -55,6 +55,9 @@ const Footer = () => {
 
               <li><a href="#">+1 999 9999 999</a></li>
             </ul>
+            <div className="copyright mobile">
+              This website is designed by GTCoding &copy; <span style={{color: 'white'}} >{date}</span>
+            </div>
           </div>
         </div>
       </div>
